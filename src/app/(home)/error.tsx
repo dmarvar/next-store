@@ -2,12 +2,7 @@
 
 import React from "react";
 
-type Props = {
-  error: Error;
-  reset: () => void;
-};
-
-const HomeError = ({ error, reset }: Props) => {
+const HomeError = ({ error, reset }: ErrorPageProps) => {
   return (
     <div>
       HomeError
